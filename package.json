@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node ./dist/index.mjs"
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "latest"
   },
   "engines": {
     "node": ">=18"
