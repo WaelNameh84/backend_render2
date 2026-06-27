@@ -6,7 +6,8 @@
     "start": "node index.mjs"
   },
   "dependencies": {
-    "nodemailer": "latest"
+    "nodemailer": "latest",
+    "@google-cloud/storage": "latest"
   },
   "engines": {
     "node": ">=18"
